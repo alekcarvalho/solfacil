@@ -1,0 +1,49 @@
+html,
+body,
+#__nuxt,
+#__layout,
+#main {
+  @apply w-full leading-relaxed text-secondary bg-light-gray;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  @apply overflow-x-hidden;
+}
+
+#main {
+  @apply flex flex-col min-h-screen;
+}
+
+.content {
+  //@apply flex-grow;
+}
+
+//container
+.container {
+  @apply max-w-container mx-auto px-6;
+}
+
+//button
+.button {
+  @apply flex text-center items-center justify-center py-3 px-6 rounded uppercase font-medium text-sm leading-4;
+  &:hover {
+    @apply opacity-80;
+  }
+}
+
+.button-primary {
+  @apply bg-primary text-dark-gray;
+}
+
+//box
+.box {
+  @apply bg-white rounded p-10 shadow-xl;
+}
+
+//table
+.table-container {
+  @apply overflow-x-auto;
+}
