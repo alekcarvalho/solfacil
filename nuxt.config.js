@@ -101,7 +101,7 @@ export default {
   // env config runtime
 
   publicRuntimeConfig: {
-    baseURL: process.env.BASE_URL,
+    apiURL: process.env.API_URL,
   },
   // privateRuntimeConfig: {
   //   apiSecret: process.env.API_SECRET
