@@ -1,4 +1,4 @@
-# app
+# Solfácil
 
 ## Build Setup
 
